@@ -4,17 +4,12 @@ import { createStackNavigator } from 'react-navigation';
 
 
 
-
 // CONST
 
 const { width, height } = Dimensions.get('window');
 
 
-
-
 // CONST END
-
-
 
 
 
