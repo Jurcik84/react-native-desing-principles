@@ -1,9 +1,25 @@
 import React from 'react';
-import { StyleSheet, Text, View, ScrollView, Image } from 'react-native';
+import { StyleSheet, Text, View, ScrollView, Image, Dimensions } from 'react-native';
 import { createStackNavigator } from 'react-navigation';
 
 
 
+
+// CONST
+
+const { width, height } = Dimensions.get('window');
+
+
+
+
+// CONST END
+
+
+
+
+
+
+// DETAIL SCREEN
 class DetailScreen extends React.Component {
   static navigationOptions = {
     title: '',
@@ -24,7 +40,7 @@ class DetailScreen extends React.Component {
         <Image
           style={
             {
-              width: '100%',
+              width: width,
               height: 300,
               margin: 1,
 
